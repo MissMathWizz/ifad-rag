@@ -1,0 +1,36 @@
+# === Core App ===
+fastapi
+uvicorn
+faiss-cpu
+
+# === GCP & Vertex AI ===
+google-cloud-storage
+google-cloud-aiplatform
+google-cloud-documentai
+vertexai
+google-auth
+protobuf==3.20.3  # Required by vertexai
+
+# === NLP, ML, Embedding, Vector Math ===
+scikit-learn
+numpy
+pandas
+
+# === File I/O & PDF/Image ===
+PyMuPDF
+pdf2image
+PyPDF2
+pillow
+ImageHash
+requests
+pyarrow  # Required for read_parquet
+fastparquet
+
+# === UX, Debug, and Output Formatting ===
+rich
+python-dotenv
+tqdm
+
+# === Optional (for IPython-style local debugging/log printing) ===
+ipython
+python-multipart  # (optional, for file upload support)
